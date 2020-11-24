@@ -6,8 +6,10 @@ function removefromString(word, x){
         let currentletter = lowerword[i];
         if(currentletter === y){ 
             currentletter == null;}
-         else result.push(lowerword[i]); 
+         else result.push(lowerword[i]);  
     }
     return result;
 }
 console.log(removefromString('Azkaban', 'A'));
+// //
+//
